@@ -8,6 +8,10 @@ if "%1"=="" (
 set "network=%~1"
 if "%network:~-1%" neq "." set "network=%network%."
 
+echo Script hecho por Esdichi
+echo Suscribete al canal
+echo si no eres mala gente
+
 echo Escaneando IPs en %network%1-254...
 
 for /l %%i in (1,1,254) do (
